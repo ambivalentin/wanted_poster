@@ -6,6 +6,60 @@
     <meta name="viewport content=width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/main.css" />
     <link rel="stylesheet" href="styles/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Wanted Poster</title>
   </head>
+
+  <body>
+    <div class="container">
+      <div>
+        <img
+          src="./images/late-tasks.png"
+          alt="person sulking over assignments"
+        />
+      </div>
+
+      <div class="wanted">
+        <h1 class="logo animate__animated animate__bounce">Wanted!</h1>
+        <svg
+          class="denied"
+          height="100%"
+          viewbox="0 0 220 220"
+          fill="none"
+          xmlns="www.w3.org/2000/svg"
+        >
+          <g>
+            <circle
+              cx="110"
+              cy="110"
+              r="100"
+              stroke-width="20"
+              fill="red"
+              stroke="red"
+            />
+            <polyline points="75,150 150,75" stroke="white" stroke-width="10" />
+            <polyline points="75,75 150,150" stroke="white" stroke-width="10" />
+          </g>
+        </svg>
+      </div>
+
+      <p style="font-size: xx-large">Late assignments</p>
+
+      <div class="reward">
+        <h2>Reward</h2>
+        <svg class="diamond" height="100%" viewbox="0 0 240 240">
+          <use href="./images/diamond.svg#diamond"></use>
+        </svg>
+      </div>
+    </div>
+  </body>
 </html>

@@ -1,0 +1,16 @@
+  <svg version="1.1"  width="240" height="240"  fill="none" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="diamond" viewbox="0 0 240 240">
+      <path d="M55 10 185 10" stroke-width="10" stroke="black" stroke-linecap="round"/>
+      <path d="M15 70 225 70" stroke-width="10" stroke="black" stroke-linecap="round"/>
+      <path d="M15 70 55 10" stroke-width="10" stroke="black" stroke-linecap="round"/>
+      <path d="M185 10 225 70" stroke-width="10" stroke="black" stroke-linecap="round"/>
+      <path d="M55 10 85 70" stroke-width="10" stroke="black" stroke-linecap="round"/>
+      <path d="M120 10 155 70" stroke-width="10" stroke="black" stroke-linecap="round"/>
+      <path d="M85 70 120 10" stroke-width="10" stroke="black" stroke-linecap="round"/>
+      <path d="M155 70 185 10" stroke-width="10" stroke="black" stroke-linecap="round"/>
+      <path d="M15 70 120 220" stroke-width="10" stroke="black" stroke-linecap="round"/>
+      <path d="M120 220 225 70" stroke-width="10" stroke="black" stroke-linecap="round"/>
+      <path d="M85 70 120 220" stroke-width="10" stroke="black" stroke-linecap="round"/>
+      <path d="M120 220 155 70" stroke-width="10" stroke="black" stroke-linecap="round"/>
+      </symbol>
+  </svg>
